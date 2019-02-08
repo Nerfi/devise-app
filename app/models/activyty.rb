@@ -4,5 +4,6 @@ class Activyty < ApplicationRecord
   end
 
   def index
+    @activyties = Activyti.all
   end
 end
