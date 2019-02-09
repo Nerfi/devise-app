@@ -1,5 +1,15 @@
-<h1>New Gym</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+      <h1>New Gym</h1>
+    </div>
+  </div>
+</div>
 
 <%= render 'form', gym: @gym %>
 
-<%= link_to 'Back', gyms_path %>
+<!-- creo que no estoy respetando el principio de DRY -->
+    <div class="col-sm-4 col-sm-offset-4">
+     <%= link_to 'Back', gyms_path %>
+</di>
+
