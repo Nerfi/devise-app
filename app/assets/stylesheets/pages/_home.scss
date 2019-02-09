@@ -1,1 +1,11 @@
 // Specific CSS for your home-page
+.home-banner {
+  background-image: url("gym.jpg");
+  background-size: cover !important;
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+
+}
