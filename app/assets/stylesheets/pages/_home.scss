@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 .home-banner {
-  background: linear-gradient(to left, rgba(255,200,100,0), rgba(255,200,200,1)), url("gym.jpg");
+  background: linear-gradient( rgba(255,255,200,0), rgba(255,200,200,1)), url("gym.jpg");
   //background-image: linear-gradient url("gym.jpg");
   background-size: cover !important;
   height: 500px; /* You must set a specified height */
@@ -8,6 +8,11 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover !important;
 
-
+   h1 {
+    padding-top: 55px;
+    font-weight: bold
+  }
 
 }
+
+
